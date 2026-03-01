@@ -84,8 +84,58 @@ Each includes:
 - Mongoose
 - RESTful API design
 
+## 📁 Project Structure
 
+```
+rayeva-ai-system/
+├── README.md                                      # Main documentation
+├── docs/
+│   └── additional-modules-architecture.md        # Architecture design for modules 3 & 4
+│
+├── module-1-category/                            # AI Auto Category & Tag Generator
+│   ├── app.js                                    # Express app configuration
+│   ├── package.json                              # Dependencies & scripts
+│   ├── README.md                                 # Module documentation
+│   ├── controllers/
+│   │   └── category.controller.js                # Request handling for category endpoints
+│   ├── middlewares/
+│   │   └── error.middleware.js                   # Centralized error handling
+│   ├── models/
+│   │   ├── classification.model.js               # Category classification schema
+│   │   └── log.model.js                          # Activity logging schema
+│   ├── routes/
+│   │   └── category.routes.js                    # API route definitions
+│   └── services/
+│       └── openai.service.js                     # OpenAI API integration service
+│
+└── module-2-support-bot/                         # AI Customer Support Bot
+    ├── server.js                                 # Server entry point
+    ├── package.json                              # Dependencies & scripts
+    ├── README.md                                 # Module documentation
+    └── src/
+        ├── app.js                                # Express app configuration
+        ├── controllers/
+        │   └── webhookController.js              # Webhook request handling
+        ├── models/
+        │   ├── Conversation.js                   # Conversation history schema
+        │   ├── Escalation.js                     # Escalation tracking schema
+        │   └── Order.js                          # Order information schema
+        ├── routes/
+        │   └── webhookRoutes.js                  # Webhook route definitions
+        ├── services/
+        │   └── geminiService.js                  # Google Gemini API integration service
+        └── utils/
+            └── db.js                             # MongoDB connection utility
+```
 
+### Module Responsibilities
+
+| Module | Purpose | Key Technology |
+|--------|---------|-----------------|
+| **Module 1** | Automatic product categorization & tagging | OpenAI API, Mongoose |
+| **Module 2** | Customer support chatbot with escalation | Google Gemini API, Webhooks |
+| **Module 3** | (Designed) B2B proposal generation | - |
+| **Module 4** | (Designed) Sustainability reporting | - |
 
 ## 🎥 Demo Videos
 
