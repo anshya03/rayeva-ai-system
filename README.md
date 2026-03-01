@@ -89,12 +89,11 @@ Each includes:
 
 ## 🎥 Demo Videos
 
-### Module 2 – AI Customer Support Bot
-https://drive.google.com/file/d/1HLKO2rJ-J9c5uTExW6526HpYx7F4KwhP/view?usp=sharing
-
-
 ### Module 1 – AI Auto Category & Tag Generator
 https://drive.google.com/file/d/1raw40zRyqacVI-s7lUvPdiDIsiZVJ9Dv/view?usp=sharing
+
+### Module 2 – AI Customer Support Bot
+https://drive.google.com/file/d/1HLKO2rJ-J9c5uTExW6526HpYx7F4KwhP/view?usp=sharing
 
 ## 📦 How To Run Each Module
 
