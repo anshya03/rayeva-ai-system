@@ -57,23 +57,22 @@ Key principles:
 
 Each module is independently structured but follows consistent architectural patterns.
 
-## 📚 Architecture Design for Additional Modules
+## 📚 Additional Module Architecture Designs
 
-The remaining modules are outlined in `docs/additional-modules-architecture.md`.
+Two additional modules have been architecturally designed to demonstrate scalability planning. 
 
-These include:
+Full architecture documentation: `docs/additional-modules-architecture.md`
 
-- B2B Proposal Generator
-- Sustainability Impact Reporting
-- Budget Allocation Engine
+**Module 3:** B2B Proposal Generator  
+**Module 4:** Sustainability Impact Reporting
 
-Each is documented with:
+Each includes:
 
-- Objective
-- Inputs & outputs
-- API design
-- Data models
-- Scalable architecture flow
+- Objective & business logic
+- Input/output specifications
+- API endpoint design
+- Database schema design
+- Complete architecture flow
 
 ## 🛠 Tech Stack
 
